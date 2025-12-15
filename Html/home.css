@@ -1,0 +1,127 @@
+* {
+    margin : 0px;
+    padding : 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navContainer {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 20px;
+    margin-right: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+nav ul a:first-child {
+    text-decoration: none;
+    color: black;
+    font-weight: 200px;
+    margin-right: auto;
+
+}
+
+.navContainer ul li {
+    display: inline;
+    margin-left: 0;  /* Remove the large margin */
+    padding: 0;
+}
+
+.navContainer ul li a {
+    padding: 10px 20px;  /* Add padding to the links themselves */
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.navContainer ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 500px;
+    text-decoration: none;
+    color: #00000090;
+}
+
+.navbuttons {
+    display: flex;
+    justify-content:right;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.btn1 {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.btn:hover, .btn1:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.homecardbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    gap: 20px;
+    background-color: beige;
+    border: transparent;
+    border-radius: 6px;
+
+}
+
+.homecardbox p {
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.explorebtn {
+    border: 1px solid black;
+    border-radius: 13px;
+    padding: 10px 20px;
+    background-color: coral;
+}
+
+hr {
+    color: green;
+    line-height: 1rem;
+}
